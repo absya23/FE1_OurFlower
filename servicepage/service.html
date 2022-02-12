@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service - Our Flower Shop</title>
+    <link rel="icon" href="../assets/img/logo.png" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="stylesheet" href="./service_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body class="list-scroll-bar">
+    <div
+      class="container"
+      style="background-image: url(../assets/img/background_5.png)"
+    >
+      <header class="header">
+        <i class="fa-solid fa-bars barBtn icons"></i>
+        <i class="fa-solid fa-moon modeBtn icons"></i>
+        <div class="drop-down-overlay close">
+          <div class="drop-menu drop-menu-home close">
+            <ul class="menu-list">
+              <li class="menu-item"><a href="../home.html">Home</a></li>
+              <li class="menu-item">
+                <a href="#">Service</a>
+              </li>
+              <li class="menu-item"><a href="">Blog</a></li>
+              <li class="menu-item">
+                <a href="../shoppage/shoppage.html">Shop</a>
+              </li>
+              <li class="menu-item">
+                <a href="../locationpage/location.html">Location</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="../home.html" class="navbar-item__link"
+                  ><img
+                    src="../assets/img/logo.png"
+                    alt="logo"
+                    class="navbar-item__logo"
+                /></a>
+              </li>
+              <li class="navbar-item">
+                <a href="../servicepage/service.html" class="navbar-item__link"
+                  >Service</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-item__link">Blog</a>
+              </li>
+              <li class="navbar-item">
+                <a href="../shoppage/shoppage.html" class="navbar-item__link"
+                  >Shop</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a
+                  href="../locationpage/location.html"
+                  class="navbar-item__link"
+                  >Location</a
+                >
+              </li>
+              <li class="navbar-item navbar-item--check-out">
+                <a
+                  href="#"
+                  class="navbar-item__link navbar-item--check-out-link"
+                  >Check out(0)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="service-main">
+        <div class="service-card">
+          <div class="service-card__contain">
+            <h1 class="service-card__heading">
+              <span>Service for</span>
+              <span>home plants.</span>
+            </h1>
+            <p class="service-card__descrip">
+              If you don’t know what plants you can add to the space,we can
+              provide you with selected plants,and configure your space.
+            </p>
+            <button
+              onclick="window.location.href='../shoppage/shoppage.html#shop-container'"
+              class="btn btn--service btn--primary"
+            >
+              Try for service
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="onScreen">
+      <i class="goTopBtn fas fa-arrow-circle-up"></i>
+      <i class="payBtn fas fa-shopping-cart"></i>
+      <span>Click to pay</span>
+    </div>
+
+    <script src="../app.js"></script>
+  </body>
+</html>

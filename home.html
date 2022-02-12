@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Flower Shop</title>
+    <link rel="icon" href="./assets/img/logo.png" />
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./homepage/home_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body class="list-scroll-bar">
+    <div
+      class="container"
+      style="background-image: url(../assets/img/background_0.png)"
+    >
+      <header class="header">
+        <!-- MOBILE TABLET -->
+        <i class="fa-solid fa-bars barBtn icons"></i>
+        <i class="fa-solid fa-moon modeBtn icons"></i>
+        <div class="drop-down-overlay close">
+          <div class="drop-menu drop-menu-home close">
+            <ul class="menu-list">
+              <li class="menu-item"><a href="./home.html">Home</a></li>
+              <li class="menu-item">
+                <a href="./servicepage/service.html">Service</a>
+              </li>
+              <li class="menu-item"><a href="">Blog</a></li>
+              <li class="menu-item">
+                <a href="./shoppage/shoppage.html">Shop</a>
+              </li>
+              <li class="menu-item">
+                <a href="./locationpage/location.html">Location</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="./home.html" class="navbar-item__link"
+                  ><img
+                    src="./assets/img/logo.png"
+                    alt="logo"
+                    class="navbar-item__logo"
+                /></a>
+              </li>
+              <li class="navbar-item">
+                <a href="./servicepage/service.html" class="navbar-item__link"
+                  >Service</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-item__link">Blog</a>
+              </li>
+              <li class="navbar-item">
+                <a href="./shoppage/shoppage.html" class="navbar-item__link"
+                  >Shop</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a href="./locationpage/location.html" class="navbar-item__link"
+                  >Location</a
+                >
+              </li>
+              <li class="navbar-item navbar-item--check-out">
+                <a
+                  href="#"
+                  class="navbar-item__link navbar-item--check-out-link"
+                  >Check out(0)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="main">
+        <div class="main-text-group">
+          <div class="main-heading">
+            <h1 class="main-heading__line">Let's find</h1>
+            <h1 class="main-heading__line">your love</h1>
+            <h1 class="main-heading__line">plants</h1>
+          </div>
+          <p class="main-text">
+            Add some color to your home, give it a <br />little attention, the
+            plants will<br />
+            accompany you quietly
+          </p>
+        </div>
+        <a
+          href="https://www.youtube.com/watch?v=bcCeLAV_NaA"
+          target="_blank"
+          class="btn main-btn"
+        >
+          watch the video
+        </a>
+        <ul class="main-list">
+          <li class="main-item">
+            <a href="#type1" class="main-item-link">
+              <img
+                src="./assets/img/001-plant 1.png"
+                alt=""
+                class="main-item-img"
+              />
+            </a>
+          </li>
+          <li class="main-item">
+            <a href="#type2" class="main-item-link">
+              <img
+                src="./assets/img/001-plant 2.png"
+                alt=""
+                class="main-item-img"
+              />
+            </a>
+          </li>
+          <li class="main-item">
+            <a href="#type3" class="main-item-link">
+              <img
+                src="./assets/img/001-plant 3.png"
+                alt=""
+                class="main-item-img"
+              />
+            </a>
+          </li>
+          <li class="main-item">
+            <a href="#type4" class="main-item-link">
+              <img
+                src="./assets/img/001-plant 4.png"
+                alt=""
+                class="main-item-img"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-info">
+      <button
+        onclick="window.location.href='./shoppage/shoppage.html#shop-container'"
+        class="btn btn--service"
+      >
+        Try for service
+      </button>
+
+      <h4 class="main-info-text">Get a beautiful home</h4>
+
+      <p class="main-aboutme">
+        If you don’t know what plants you can add to the space<br />We can
+        provide you with selected plants<br />And configure your space
+      </p>
+      <div class="main-types">
+        <h2 class="main-type-description">4 types of plants</h2>
+
+        <ul class="types-list">
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              id="type1"
+              style="background-image: url(./assets/img/background_5.png)"
+            >
+              <h6 class="type-item__link-heading">Foliage</h6>
+              <p class="type-item__link-quantity">21 plants</p>
+            </a>
+          </li>
+
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              id="type2"
+              style="background-image: url(./assets/img/background_1.png)"
+            >
+              <h6 class="type-item__link-heading">Succulent</h6>
+              <p class="type-item__link-quantity">4 plants</p>
+            </a>
+          </li>
+
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              id="type3"
+              style="background-image: url(./assets/img/background_6.png)"
+            >
+              <h6 class="type-item__link-heading">Flower</h6>
+              <p class="type-item__link-quantity">8 plants</p>
+            </a>
+          </li>
+
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              id="type4"
+              style="background-image: url(./assets/img/background_7.png)"
+            >
+              <h6 class="type-item__link-heading">Fruit</h6>
+              <p class="type-item__link-quantity">10 plants</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="onScreen">
+      <i class="goTopBtn fas fa-arrow-circle-up"></i>
+      <i class="payBtn fas fa-shopping-cart"></i>
+      <span>Click to pay</span>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

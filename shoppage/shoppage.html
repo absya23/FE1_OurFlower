@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop - Our Flower Shop</title>
+    <link rel="icon" href="../assets/img/logo.png" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="stylesheet" href="./shopepage_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body class="list-scroll-bar">
+    <div
+      class="container"
+      style="background-image: url(../assets/img/background_2.png)"
+    >
+      <header class="header">
+        <i class="fa-solid fa-bars barBtn icons"></i>
+        <i class="fa-solid fa-moon modeBtn icons"></i>
+        <div class="drop-down-overlay close">
+          <div class="drop-menu drop-menu-home close">
+            <ul class="menu-list">
+              <li class="menu-item"><a href="../home.html">Home</a></li>
+              <li class="menu-item">
+                <a href="../servicepage/service.html">Service</a>
+              </li>
+              <li class="menu-item"><a href="">Blog</a></li>
+              <li class="menu-item">
+                <a href="#">Shop</a>
+              </li>
+              <li class="menu-item">
+                <a href="../locationpage/location.html">Location</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="../home.html" class="navbar-item__link"
+                  ><img
+                    src="../assets/img/logo.png"
+                    alt="logo"
+                    class="navbar-item__logo"
+                /></a>
+              </li>
+              <li class="navbar-item">
+                <a href="../servicepage/service.html" class="navbar-item__link"
+                  >Service</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-item__link">Blog</a>
+              </li>
+              <li class="navbar-item">
+                <a href="../shoppage/shoppage.html" class="navbar-item__link"
+                  >Shop</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a
+                  href="../locationpage/location.html"
+                  class="navbar-item__link"
+                  >Location</a
+                >
+              </li>
+              <li class="navbar-item navbar-item--check-out">
+                <a
+                  href="#"
+                  class="navbar-item__link navbar-item--check-out-link"
+                  >Check out(0)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="shop-main">
+        <div class="shop-title">
+          <h1 class="shop-heading">
+            <span class="shine">Service for</span>
+            <span class="shine">home plants.</span>
+          </h1>
+        </div>
+        <div class="shop-content">
+          <div class="shop-main-left">
+            <div class="shop-intro">
+              <div class="shop-intro__more">
+                <p class="shop-intro__time">7-14 Days Waiting</p>
+                <p class="shop-intro__descrip">
+                  If you don’t know what plants you can add to the space,we can
+                  provide you with selected plants,and configure your space.
+                </p>
+              </div>
+              <button
+                onclick="window.location.href='#shop-container'"
+                class="btn btn--service btn--primary"
+              >
+                Try for service
+              </button>
+              <!-- <div class="shop-owner">
+                <p class="shop-owner__name">Gardener by</p>
+                <img
+                  src="../assets/img/Ellipse_grape.png"
+                  alt=""
+                  class="shop-owner__avt"
+                />
+              </div> -->
+            </div>
+          </div>
+
+          <div class="shop-main-right">
+            <div class="shop-slide-show">
+              <!-- SLIDE SHOW -->
+              <img
+                src="../assets/img/shop_gallery/pic1.jpg"
+                alt=""
+                class="active"
+              />
+              <img src="../assets/img/shop_gallery/pic2.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic3.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic4.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic5.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic6.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic7.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic8.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic9.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic10.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic11.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic12.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic13.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic14.jpg" alt="" />
+              <img src="../assets/img/shop_gallery/pic15.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="shop-container">
+      <div class="shop-types list-scroll-bar">
+        <ul class="types-list">
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              style="background-image: url(../assets/img/background_5.png)"
+            >
+              <h6 class="type-item__link-heading">Foliage</h6>
+              <p class="type-item__link-quantity">21 plants</p>
+            </a>
+          </li>
+
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              style="background-image: url(../assets/img/background_1.png)"
+            >
+              <h6 class="type-item__link-heading">Succulent</h6>
+              <p class="type-item__link-quantity">4 plants</p>
+            </a>
+          </li>
+
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              style="background-image: url(../assets/img/background_6.png)"
+            >
+              <h6 class="type-item__link-heading">Flower</h6>
+              <p class="type-item__link-quantity">8 plants</p>
+            </a>
+          </li>
+
+          <li class="type-item">
+            <a
+              href="#"
+              class="type-item__link"
+              style="background-image: url(../assets/img/background_7.png)"
+            >
+              <h6 class="type-item__link-heading">Fruit</h6>
+              <p class="type-item__link-quantity">10 plants</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="onScreen">
+      <i class="goTopBtn fas fa-arrow-circle-up"></i>
+      <i class="payBtn fas fa-shopping-cart"></i>
+      <span>Click to pay</span>
+    </div>
+
+    <script src="../app.js"></script>
+  </body>
+</html>
